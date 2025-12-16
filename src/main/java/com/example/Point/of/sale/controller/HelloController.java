@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class HelloController {
     @GetMapping
-    public String hello(){
-        return "Hello from spring boot application :)";
+    public String hello() {
+        return "Hello from New Test :)";
     }
 
     @GetMapping("/user")
@@ -23,4 +23,5 @@ public class HelloController {
     public String getPresentation(){
         return "presentation";
     }
+
 }
